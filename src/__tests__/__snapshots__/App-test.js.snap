@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render App correctly 1`] = `
+<div
+  className="sc-dnqmqq bbldZQ"
+>
+  <main
+    className="ant-layout-content"
+  >
+    Loading...
+  </main>
+  <footer
+    className="sc-iwsKbI eicGzD ant-layout-footer"
+    height={130}
+  >
+    <div>
+      <span
+        className="ant-input-search sc-gzVnrw ibZhkv ant-input-search-enter-button ant-input-search-large ant-input-group-wrapper ant-input-group-wrapper-lg"
+      >
+        <span
+          className="ant-input-wrapper ant-input-group"
+        >
+          <input
+            className="ant-input ant-input-lg"
+            disabled={false}
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Send a message"
+            size="large"
+            style={null}
+            type="text"
+            value=""
+          />
+          <span
+            className="ant-input-group-addon"
+          >
+            <button
+              className="ant-btn ant-input-search-button ant-btn-primary ant-btn-lg"
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                Send
+              </span>
+            </button>
+          </span>
+        </span>
+      </span>
+      <div
+        className="sc-htoDjs jAQBZX"
+      >
+        Generator enabled:
+        <button
+          aria-checked={false}
+          checked={false}
+          className="ant-switch-small ant-switch"
+          defaultChecked={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          role="switch"
+          size="small"
+          type="button"
+        >
+          <span
+            className="ant-switch-inner"
+          />
+        </button>
+      </div>
+      <div
+        className="sc-htoDjs jAQBZX"
+      >
+        Fetch previous messages at init (reload expected):
+        <button
+          aria-checked={false}
+          checked={false}
+          className="ant-switch-small ant-switch"
+          defaultChecked={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          role="switch"
+          size="small"
+          type="button"
+        >
+          <span
+            className="ant-switch-inner"
+          />
+        </button>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

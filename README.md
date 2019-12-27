@@ -11,13 +11,10 @@ WireFrame:
 Règle :
 
 - Ajouter un message (depuis l’input avec le texte en violet) qui s’affiche en bas de la zone. Il devra toujours être le dernier élément visible.
-Récupérer l’historique des messages en lazy loading (sous forme de pagination infinie) lors du scroll top (curseur en bleu)
+  Récupérer l’historique des messages en lazy loading (sous forme de pagination infinie) lors du scroll top (curseur en bleu)
 - A l’initialisation, la page 1 contenant les premiers messages seront placés dans la zone d’affichage
-La hauteur du contenu (en vert) peut varier et sera précédée de la date d’insertion (en orange)
-Optimiser le rendu, pour n’avoir que les messages affichés dans le DOM.
-
-
-Demo: http://react-chat-test.fhio.xyz/
+  La hauteur du contenu (en vert) peut varier et sera précédée de la date d’insertion (en orange)
+  Optimiser le rendu, pour n’avoir que les messages affichés dans le DOM.
 
 ## Available Scripts
 

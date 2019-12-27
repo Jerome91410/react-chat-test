@@ -22,11 +22,9 @@ exports[`Should render App correctly 1`] = `
         >
           <input
             className="ant-input ant-input-lg"
-            disabled={false}
             onChange={[Function]}
             onKeyDown={[Function]}
             placeholder="Send a message"
-            size="large"
             style={null}
             type="text"
             value=""

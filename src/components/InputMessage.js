@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { random } from 'lodash';
+import random from 'lodash/random';
 import faker from 'faker';
 
 import { connect } from 'react-redux';
@@ -99,8 +99,8 @@ class InputMessage extends Component {
   }
 }
 
-const mapDispatchToProps = dispatch => ({
-  sendMessageLogic: message => dispatch(sendMessage(message)),
+const mapDispatchToProps = (dispatch) => ({
+  sendMessageLogic: (message) => dispatch(sendMessage(message)),
 });
 
 export default connect(

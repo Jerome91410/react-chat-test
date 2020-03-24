@@ -1,6 +1,6 @@
 import { createLogic } from 'redux-logic';
 import faker from 'faker';
-import { random } from 'lodash';
+import random from 'lodash/random';
 
 import { addMessage, fetchedMessages, unshitMessage } from '../actions/chat';
 

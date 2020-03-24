@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import {
   List, AutoSizer, CellMeasurer, CellMeasurerCache,
 } from 'react-virtualized';
-import { findIndex } from 'lodash';
+import findIndex from 'lodash/findIndex';
 import styled from 'styled-components';
 import { Spin } from 'antd';
 import { fetchMessages } from '../actions/chat';
@@ -48,7 +48,7 @@ const Row = styled.div`
   align-items: initial;
   background-color: #fff;
   border-top: 1px solid #b9aeae;
-  font-weight: ${props => (props.fromYou ? 'bold' : 'normal')};
+  font-weight: ${(props) => (props.fromYou ? 'bold' : 'normal')};
 `;
 
 class ListMessages extends Component {
@@ -81,7 +81,7 @@ class ListMessages extends Component {
     if (messages.length !== prevProps.messages.length) {
       let lastIdx;
       if (lastVisible) {
-        lastIdx = findIndex(messages, o => o.createdAt === lastVisible);
+        lastIdx = findIndex(messages, (o) => o.createdAt === lastVisible);
         lastIdx += minListSize;
       }
       this.setState({
@@ -188,13 +188,13 @@ class ListMessages extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   messages: state.chat.messages,
   fetchingMessages: state.chat.fetchingMessages,
 });
 
-const mapDispatchToProps = dispatch => ({
-  fetchMessageLogic: message => dispatch(fetchMessages(message)),
+const mapDispatchToProps = (dispatch) => ({
+  fetchMessageLogic: (message) => dispatch(fetchMessages(message)),
 });
 
 export default connect(

@@ -2,7 +2,7 @@
 
 exports[`Should render App correctly 1`] = `
 <div
-  className="sc-dnqmqq bbldZQ"
+  className="sc-fzozJi dBzdPm"
 >
   <main
     className="ant-layout-content"
@@ -10,19 +10,21 @@ exports[`Should render App correctly 1`] = `
     Loading...
   </main>
   <footer
-    className="sc-iwsKbI eicGzD ant-layout-footer"
+    className="ant-layout-footer sc-fzoLsD hYyqGV"
     height={130}
   >
     <div>
       <span
-        className="ant-input-search sc-gzVnrw ibZhkv ant-input-search-enter-button ant-input-search-large ant-input-group-wrapper ant-input-group-wrapper-lg"
+        className="ant-input-search sc-Axmtr hBVTto ant-input-search-enter-button ant-input-search-large ant-input-group-wrapper ant-input-group-wrapper-lg"
       >
         <span
           className="ant-input-wrapper ant-input-group"
         >
           <input
             className="ant-input ant-input-lg"
+            onBlur={[Function]}
             onChange={[Function]}
+            onFocus={[Function]}
             onKeyDown={[Function]}
             placeholder="Send a message"
             style={null}
@@ -35,6 +37,7 @@ exports[`Should render App correctly 1`] = `
             <button
               className="ant-btn ant-input-search-button ant-btn-primary ant-btn-lg"
               onClick={[Function]}
+              onMouseDown={[Function]}
               type="button"
             >
               <span>
@@ -45,7 +48,7 @@ exports[`Should render App correctly 1`] = `
         </span>
       </span>
       <div
-        className="sc-htoDjs jAQBZX"
+        className="sc-AxmLO tVOLv"
       >
         Generator enabled:
         <button
@@ -67,7 +70,7 @@ exports[`Should render App correctly 1`] = `
         </button>
       </div>
       <div
-        className="sc-htoDjs jAQBZX"
+        className="sc-AxmLO tVOLv"
       >
         Fetch previous messages at init (reload expected):
         <button

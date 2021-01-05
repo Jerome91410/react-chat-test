@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^4.1.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "eslint-plugin-promise": "^4.2.1",
     "faker": "^4.1.0",
     "lodash": "^4.17.19",
